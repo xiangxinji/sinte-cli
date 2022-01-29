@@ -1,0 +1,17 @@
+{
+  "name": "sinte-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": "bin/sinte-cli.js",
+  "dependencies": {
+    "@vue/compiler-sfc": "3.2.21",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "vue": "3.2.21",
+    "vue-loader": "^17.0.0",
+    "webpack": "^5.67.0",
+    "webpack-merge": "^5.8.0",
+    "yargs": "^17.3.1"
+  }
+}
