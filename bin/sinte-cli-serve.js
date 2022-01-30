@@ -1,1 +1,4 @@
-module.exports = function () {};
+
+module.exports = async function setup(webpackConfig) {
+
+};

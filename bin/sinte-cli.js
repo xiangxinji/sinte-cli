@@ -10,7 +10,8 @@ const mode = sinteConfig.mode;
 const webpackConfig = getWebpackConfig({ cwd, mode, sinteConfig });
 
 if (sinteConfig.serve) {
-  require("./sinte-cli-serve");
+  const serverSetup = require("./sinte-cli-serve");
+  serverSetup(webpackConfig)
   return 0;
 }
 
